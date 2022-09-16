@@ -1,0 +1,537 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend', Times, serif;
+}
+
+body {
+    /* background-color: #f0f4f7; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    z-index: 10;
+
+
+}
+
+.logo {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ff414d;
+}
+.nav-btn
+{
+    display: none;
+}
+
+nav a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    margin: 0rem 1.5rem;
+    position: relative;
+
+}
+
+nav a::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 12%;
+    transition: 0.2s all ease;
+    background-color: #ff414d;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.nav-icon {
+    display: flex;
+    gap: 0rem 2rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-icon i {
+
+    padding: 0.8rem 0.8rem;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+
+
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 5.8rem;
+
+
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    /* padding:3rem 0rem; */
+}
+
+.image img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content-1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.primary-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 0rem;
+    padding: 2rem 10%;
+}
+
+.primary-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 0rem;
+    padding: 2rem 5%;
+}
+
+.content h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.content-1 h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.content h3 {
+    font-size: 2.5rem;
+}
+
+.content-1 h3 {
+    font-size: 2.5rem;
+}
+
+.content .btn2 {
+    padding: 1.5rem 4rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.content-1 .btn2 {
+    padding: 1.5rem 4rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn2::after {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #ff414d;
+    transition: 0.5s all cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: translateY(-100%);
+
+}
+
+.btn2 span {
+    position: relative;
+    z-index: 10;
+    font-size: 1.5rem;
+}
+
+.btn2:hover {
+    border: none;
+    color: white;
+
+
+}
+
+.btn2:hover::after {
+    transform: translateY(0%);
+}
+.cards-section
+{
+    position: relative;
+    z-index: 10;
+    top:10rem;
+   height:50rem
+}
+.cards-section2
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
+    top:5rem;
+    margin:0rem 10rem;
+    /* gap:0rem 2rem; */
+    display: none;
+}
+.cards-section4
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:5rem;
+    gap:0rem 2rem;
+    margin:0rem 2rem;
+}
+.cards-section5
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin:8rem 0rem;
+    gap:0rem 2rem;
+}
+
+.cards-section h3
+{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.card-slider
+{
+    
+    padding:1rem 1rem !important;
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    min-width:18rem;
+    min-height:24rem; 
+    border-radius: 0.3rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cards-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0rem 0.2rem;
+    position: relative;
+    
+}
+.cards i
+{
+    position: relative;
+    font-size: 3.5rem;
+    color:black;
+    position: relative;
+   z-index: 10;
+}
+.cards h3
+{
+    margin:1rem 0rem;
+    position: relative;
+   z-index: 10;
+}
+.cards-para1
+{
+    font-size: 1.5rem;
+   padding:0.3rem 0.5rem;
+   border-radius: 0.3rem;
+   color:black;
+   position: relative;
+   z-index: 10;
+   background-color: #f0f4f7;
+}
+.cards-para2
+{
+    font-size: 1.5rem;
+    position: relative;
+   z-index: 10;
+}
+.cards-content-1
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    border-radius: 0.3rem;
+    transition: 0.3s all ease;
+    background-color: rgba(0, 0, 0, 0.0825);
+    clip-path: circle(60.9% at 100% 100%);
+    
+  
+   
+}
+.cards:hover .cards-content-1
+{
+    background-color: rgba(0, 0, 0, 0.0825);
+    clip-path: circle(60.9% at 100% 100%);
+}
+.cards:hover .cards-content-1
+{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #ff414d;
+}
+.cards:hover .cards-icons-1,.cards:hover .cards-title,.cards:hover .cards-para2
+{
+    color:white;
+}
+
+
+
+@media(max-width:720px) {
+    header {
+
+
+        padding: 1rem 2rem !important;
+    }
+    .nav-icon
+    {
+        display: none;
+    }
+
+    .content h2 {
+        font-size: 2.5rem;
+    }
+
+    .content h3 {
+        font-size: 2rem;
+    }
+
+    .content-1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .content-1 h3 {
+        font-size: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 2.8rem;
+        height: 2.8rem;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+
+    }
+
+   .nav-icon
+   {
+    display: none;
+   }
+
+    .line-1,
+    .line-2,
+    .line-3 {
+        position: absolute;
+        width: 2rem;
+        background-color: black;
+        height: 0.3rem;
+    }
+    .logo
+    {
+        color:black;
+    }
+
+    .line-1 {
+        transform: translateY(-0.7rem)
+    }
+
+    .line-3 {
+        transform: translateY(0.7rem);
+    }
+    .btn2
+    {
+        padding:1rem 2rem !important;
+    }
+    .nav-btn
+{
+    display: block;
+    border:none;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding:1rem 1rem;
+    margin:0rem 1rem;
+    background-color:transparent;
+    
+}
+.cards-section4,.cards-section5
+{
+    display: none !important;
+}
+}
+
+@media(max-width:500px) {
+    .content {
+        justify-content: center;
+        align-items: center;
+    }
+    header
+    {
+        padding:1rem 0rem !important;
+    }
+    .hamburger
+    {
+        width:2.8rem;
+        margin:0rem 1.5rem;
+    }
+    .line-1,
+    .line-2,
+    .line-3 {
+        position: absolute;
+        width: 1.9rem;
+        background-color: black;
+        height: 0.3rem;
+    }
+  
+
+    .content h2 {
+        font-size: 1.8rem
+    }
+
+    .content h3 {
+        font-size: 1.7rem;
+    }
+
+.content-1 h2 {
+    font-size: 1.8rem
+}
+
+.content-1 h3 {
+    font-size: 1.7rem;
+}
+
+.content-1 {
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-icon i
+{
+    font-size: 1.2rem;
+}
+.btn2 
+{
+    padding:1rem 2rem !important;
+}
+.nav-btn
+{
+    display: block;
+    border:none;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding:1rem 0.5rem;
+    margin:0rem 1rem;
+    
+}
+.cards-section2
+{
+    margin:0rem 1rem !important;
+}
+.cards-section4,.cards-section5
+{
+    display: none !important;
+}
+
+}
+
+@media(max-width:1200px)
+{
+    .cards-section4,.cards-section5
+    {
+        display: none;
+    }
+    .cards-section2
+    {
+        display: block;
+    }
+}
