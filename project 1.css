@@ -451,6 +451,10 @@ nav a:hover::after {
 {
     display: none !important;
 }
+.cards-section2
+{
+    margin:0rem 2rem !important;
+}
 }
 
 @media(max-width:500px) {
@@ -475,22 +479,35 @@ nav a:hover::after {
         background-color: black;
         height: 0.3rem;
     }
-  
+   .primary-content
+   {
+    display: flex;
+    gap:2rem 0rem !important;
+    padding:0rem 0rem !important;
+   }
+   
 
     .content h2 {
-        font-size: 1.8rem
+        text-align: center;
+        font-size: 2.8rem !important;
     }
 
     .content h3 {
-        font-size: 1.7rem;
+        text-align: center;
+        font-size: 2.2rem;
     }
-
+.primary-content-1
+{
+    padding:0rem 0rem !important;
+}
 .content-1 h2 {
-    font-size: 1.8rem
+    text-align: center;
+    font-size: 2.5rem
 }
 
 .content-1 h3 {
-    font-size: 1.7rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .content-1 {
@@ -505,6 +522,10 @@ nav a:hover::after {
 .btn2 
 {
     padding:1rem 2rem !important;
+}
+.btn2::after 
+{
+    background-color: #00cc90;
 }
 .nav-btn
 {
