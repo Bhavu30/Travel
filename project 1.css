@@ -458,6 +458,18 @@ nav a:hover::after {
 }
 
 @media(max-width:500px) {
+    .home
+    {
+        height:65vh;
+    }
+    .cards-section
+    {
+        top:29rem;
+    }
+    .image
+    {
+        height:65vh;
+    }
     .content {
         justify-content: center;
         align-items: center;
