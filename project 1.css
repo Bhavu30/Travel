@@ -462,13 +462,17 @@ nav a:hover::after {
     {
         height:65vh;
     }
+    .image
+    {
+        height:65vh !important;
+    }
     .cards-section
     {
-        top:29rem;
+        top:16rem;
     }
     .image
     {
-        height:65vh;
+        height:70vh;
     }
     .content {
         justify-content: center;
@@ -501,12 +505,12 @@ nav a:hover::after {
 
     .content h2 {
         text-align: center;
-        font-size: 2.8rem !important;
+        font-size: 2.5rem !important;
     }
 
     .content h3 {
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 .primary-content-1
 {
