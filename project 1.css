@@ -345,11 +345,11 @@ nav a:hover::after {
 .cards:hover .cards-content-1
 {
     background-color: rgba(0, 0, 0, 0.0825);
-    clip-path: circle(60.9% at 100% 100%);
+    clip-path: circle(141.4% at 100% 100%)
 }
 .cards:hover .cards-content-1
 {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: circle(141.4% at 100% 100%);
     background-color: #ff414d;
 }
 .cards:hover .cards-icons-1,.cards:hover .cards-title,.cards:hover .cards-para2
