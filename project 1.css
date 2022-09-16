@@ -206,7 +206,7 @@ nav a:hover::after {
     height: 100%;
     background-color: #ff414d;
     transition: 0.5s all cubic-bezier(0.5, 1.6, 0.4, 0.7);
-    transform: translateY(-100%);
+    transform: translateY(-110%);
 
 }
 
@@ -498,6 +498,7 @@ nav a:hover::after {
     }
 .primary-content-1
 {
+    gap:2rem 0rem !important;
     padding:0rem 0rem !important;
 }
 .content-1 h2 {
