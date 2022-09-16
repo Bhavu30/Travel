@@ -468,7 +468,8 @@ nav a:hover::after {
     }
     .cards-section
     {
-        top:20rem;
+        position: relative;
+        top:20rem !important;
     }
     .image
     {
